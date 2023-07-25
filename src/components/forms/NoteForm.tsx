@@ -87,6 +87,7 @@ const NoteForm: React.FC<FormProps> = ({ id, setIsModalOpen }) => {
         description: "Se ha creado una nueva nota exitosamente",
         type: "success",
       });
+      form.resetFields();
     }
     setIsModalOpen(false);
     setIsButtonLoading(false);
