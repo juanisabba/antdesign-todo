@@ -1,0 +1,62 @@
+@notes-background-color: rgb(199, 241, 255);
+@notes-card-bg: rgb(235, 233, 190);
+@notes-card-description-bg:  #efefef;
+@notes-card-tag-bg:  green;
+@notes-card-tag-color:  #fff;
+
+.notes {
+  background-color: @notes-background-color;
+  margin-top: -16px;
+  padding-top: 16px;
+}
+.notes__container {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.notes__no-notes {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+}
+.notes__card {
+  margin: 5px 10px;
+  background-color: @notes-card-bg;
+  max-width: 278px;
+}
+.notes__card-description {
+  background-color: @notes-card-description-bg;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  text-align: start;
+}
+.notes__card-tag-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.notes__card-tag {
+  background-color: green;
+  color: @notes-card-tag-color;
+  padding: 0 10px;
+  border-radius: 15px;
+  margin-left: 5px;
+}
+.select__button-container {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0 10%;
+}
+.select__button-container span {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 633px) {
+  .notes__container {
+    justify-content: center;
+  }
+}

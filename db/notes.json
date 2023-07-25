@@ -1,0 +1,31 @@
+{
+  "notes": [
+    {
+      "id": 532,
+      "isCompleted": false,
+      "createdAt": "2023-07-12T12:43:41.570Z",
+      "title": "Formulario login",
+      "description": "Formulario para iniciar sesión que cuente con email, contraseña y un botón de recuperar contraseña",
+      "tag": "Frontend",
+      "endingDate": "2023-12-31"
+    },
+    {
+      "id": 1004,
+      "isCompleted": false,
+      "createdAt": "2023-07-14T12:46:13.408Z",
+      "title": "Diseño de las cards",
+      "description": "Nueva paleta de colores y tipografía para las cards del producto.",
+      "tag": "Diseño",
+      "endingDate": "2023-09-11"
+    },
+    {
+      "id": 972,
+      "isCompleted": false,
+      "createdAt": "2023-07-15T01:07:40.310Z",
+      "title": "Filtros de búsqueda",
+      "description": "Crear filtros de búsqueda en la API dependiendo el estado del producto.",
+      "tag": "Backend",
+      "endingDate": "2023-10-11"
+    }
+  ]
+}
